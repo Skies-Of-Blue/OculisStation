@@ -3942,8 +3942,6 @@
 	icon_state = "alienpod8"
 	},
 /area/awaymission/mothership_astrum/halls)
-"NC" = (
-)
 "NG" = (
 /obj/structure/table/abductor,
 /obj/item/stack/sheet/plasteel,
