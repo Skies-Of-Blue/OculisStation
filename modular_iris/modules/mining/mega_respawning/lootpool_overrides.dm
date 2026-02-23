@@ -1,4 +1,4 @@
-/mob/living/simple_animal/hostile/megafauna/blood_drunk_miner
+/mob/living/basic/boss/blood_drunk_miner
 	crusher_loot = list(
 		/obj/item/melee/cleaving_saw,
 		/obj/item/gun/energy/recharge/kinetic_accelerator,
