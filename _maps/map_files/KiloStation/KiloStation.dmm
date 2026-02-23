@@ -32988,8 +32988,8 @@
 /turf/open/floor/plating,
 /area/station/engineering/atmos/storage/gas)
 "jFq" = (
-/obj/structure/barricade/wooden/crude,
 /obj/machinery/door/airlock/bronze,
+/obj/structure/barricade/wooden/crude,
 /turf/open/floor/bronze,
 /area/station/service/chapel)
 "jFQ" = (
@@ -76595,8 +76595,6 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/station/security/execution/transfer)
 "wKN" = (
-/obj/structure/barricade/wooden/crude,
-/obj/structure/barricade/wooden/crude,
 /turf/open/floor/iron/stairs/old{
 	dir = 1
 	},
@@ -93099,7 +93097,7 @@ tiv
 rfg
 vtv
 bJV
-aaa
+aeu
 aaa
 aaa
 aaa
