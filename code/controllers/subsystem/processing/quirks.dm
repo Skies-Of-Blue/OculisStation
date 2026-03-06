@@ -111,12 +111,11 @@ PROCESSING_SUBSYSTEM_DEF(quirks)
 
 	for(var/type in quirk_list)
 		var/datum/quirk/quirk_type = type
-
-		if(initial(quirk_type.abstract_parent_type) == type)
-			continue
+		// NOVA EDIT ADDITION START
 		// Hidden quirks aren't visible to TGUI or the player
 		if (initial(quirk_type.hidden_quirk))
 			continue
+		// NOVA EDIT ADDITION END
 
 		quirk_prototypes[type] = new type
 		quirks[initial(quirk_type.name)] = quirk_type
