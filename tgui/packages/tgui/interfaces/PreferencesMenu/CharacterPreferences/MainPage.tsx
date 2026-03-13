@@ -625,6 +625,8 @@ export function MainPage(props: MainPageProps) {
                 }
               />
             </Stack.Item>
+            {/* NOVA EDIT ADDITION END */}
+
             {/* NOVA EDIT ADDITION START: Background Selection */}
             <Stack.Item position="relative">
               <SideDropdown
@@ -639,23 +641,6 @@ export function MainPage(props: MainPageProps) {
               />
             </Stack.Item>
             {/* NOVA EDIT ADDITION END: Background Selection */}
-            {/* NOVA EDIT ADDITION END */}
-            {/* IRIS EDIT ADDITION START: Background Selection from https://github.com/Bubberstation/Bubberstation/pull/3015*/}
-            <Stack.Item position="relative">
-              Preview Background
-              <SideDropdown
-                width="100%"
-                selected={data.character_preferences.misc.background_state}
-                options={serverData?.background_state.choices || []}
-                onSelected={(value) =>
-                  act('update_background', {
-                    new_background: value,
-                  })
-                }
-              />
-            </Stack.Item>
-            {/* IRIS EDIT ADDITION END: Background Selection */}
-
             <Stack.Item position="relative">
               <NameInput
                 name={data.character_preferences.names[data.name_to_use]}
