@@ -56,6 +56,7 @@ type CharacterControlsProps = {
 function CharacterControls(props: CharacterControlsProps) {
   return (
     <Stack>
+      { /* // OCULIS EDIT REMOVAL START
       <Stack.Item>
         <Button
           onClick={() => props.handleRotate(true)} // NOVA EDIT CHANGE - Original: onClick={props.handleRotate}
@@ -65,6 +66,7 @@ function CharacterControls(props: CharacterControlsProps) {
           tooltipPosition="top"
         />
       </Stack.Item>
+      // OCULIS EDIT REMOVAL END */}
 
       {/* NOVA EDIT ADDITION START */}
       <Stack.Item>
@@ -77,6 +79,18 @@ function CharacterControls(props: CharacterControlsProps) {
         />
       </Stack.Item>
       {/* NOVA EDIT ADDITION END */}
+
+      {/* OCULIS EDIT ADDITION START */}
+      <Stack.Item>
+        <Button
+          onClick={() => props.handleRotate(true)}
+          fontSize="22px"
+          icon="undo"
+          tooltip="Rotate"
+          tooltipPosition="top"
+        />
+      </Stack.Item>
+      {/* OCULIS EDIT ADDITION END */}
 
       <Stack.Item>
         <Button
