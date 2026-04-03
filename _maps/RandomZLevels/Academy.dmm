@@ -246,7 +246,7 @@
 /area/awaymission/caves/academy)
 "bp" = (
 /obj/machinery/light/directional/east,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/carpet/grimey,
 /area/awaymission/caves/academy)
 "bq" = (
 /obj/effect/turf_decal/stripes/line{
@@ -307,7 +307,7 @@
 /area/awaymission/caves/academy)
 "bF" = (
 /obj/structure/noticeboard/directional/north,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/carpet/grimey,
 /area/awaymission/caves/academy)
 "bP" = (
 /obj/structure/table/wood,
@@ -504,7 +504,7 @@
 /turf/open/floor/iron,
 /area/awaymission/caves/academy)
 "df" = (
-/turf/open/floor/iron/grimy,
+/turf/open/floor/carpet/grimey,
 /area/awaymission/caves/academy)
 "dg" = (
 /obj/machinery/light/directional/east,
@@ -587,7 +587,7 @@
 /area/awaymission/caves/academy)
 "dx" = (
 /obj/machinery/light/directional/north,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/carpet/grimey,
 /area/awaymission/caves/academy)
 "dy" = (
 /obj/machinery/light/directional/south,
@@ -604,11 +604,11 @@
 /area/awaymission/caves/academy)
 "dz" = (
 /obj/structure/noticeboard/directional/south,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/carpet/grimey,
 /area/awaymission/caves/academy)
 "dC" = (
 /obj/structure/closet/crate/trashcart,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/carpet/grimey,
 /area/awaymission/caves/academy)
 "dD" = (
 /obj/machinery/light/small/directional/north,
@@ -2014,7 +2014,7 @@
 /area/awaymission/beach/academy)
 "qV" = (
 /mob/living/basic/wizard/classic,
-/turf/open/floor/iron/grimy,
+/turf/open/floor/carpet/grimey,
 /area/awaymission/caves/academy)
 "rl" = (
 /obj/structure/filingcabinet/chestdrawer,
