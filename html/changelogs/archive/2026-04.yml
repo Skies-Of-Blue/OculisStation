@@ -170,3 +170,21 @@
 2026-04-24:
   TyrantCerberus:
   - rscadd: Added a new quirk "Affluent" which increases payday income.
+2026-04-25:
+  KnigTheThrasher:
+  - balance: you will no longer get instantly addicted to coffee upon taking a sip
+  LettuceGuardian:
+  - image: Gun sprites are now overlaid below the hand layer.
+  Lettuce_Guardian, Salted-Zen:
+  - rscadd: Super nanite slurry and positronic excitement salts.
+  - rscadd: Medipens in cargo for said chemicals, plus normal nanite slurry.
+  Piesuu:
+  - code_imp: Replaced some mentions of Central Command with Sectorial Command
+  Shroopy:
+  - balance: Cargo guns now require weapon permits to purchase.
+  - balance: Cargo guns cannot be purchased from express consoles anymore, assuming
+      express consoles check that correctly.
+  - rscdel: Removed carpet, multiver, ethanol, and hair changing reagents from regular
+      scrubber overflows.
+  xn-zn8h:
+  - rscadd: Meka cyborg models are back in stock!
